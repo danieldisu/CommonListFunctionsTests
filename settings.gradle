@@ -1,0 +1,5 @@
+rootProject.name = 'common-collection-function-tests'
+
+include ':common-collection-functions'
+project(':common-collection-functions').projectDir = new File('../commoncollectionfunctions')
+
